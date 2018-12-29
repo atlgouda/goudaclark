@@ -1,0 +1,34 @@
+.hero {
+    background-color: papayawhip;
+}
+
+/* .body {
+    background-color: papayawhip;
+} */
+
+#navbar-word {
+    font-size: 30px;
+}
+
+.headerName {
+    color: slategray;
+}
+#about-me, #experience {
+    height: 600px;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax {
+    background-image: url("https://images.unsplash.com/photo-1504983376254-592a0ea9b0cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2382&q=80");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax2{
+    background-image: url("https://images.unsplash.com/photo-1444852538915-ac95232916dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80");
+    height: 50%;
+}

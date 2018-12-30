@@ -14,16 +14,13 @@
     text-shadow: 1px 1px black;
 }
 .section-title {
-    color: black;
+    color: white;
     font-size: 55px;
     padding-top: 5%;
     text-align: center;
     padding-right: 25%;
 }
-.sect {
-    padding-left: 15%;
-    padding-right: 15%;
-}
+
 #navbar-word:hover {
     color: skyblue;
 }
@@ -38,15 +35,15 @@
 }
 #about-me, #experience {
     height: 600px;
-    background: rgba(255,255,255,.5)
+    background: rgba(255,255,255,0)
 }
 #content {
-    opacity: 0.5;
+    color: white;
 }
 #about-me-box {
     margin-left: 10%;
     margin-right: 10%;
-    background: rgba(255,255,255,.9);
+    background: rgba(255,255,255,0);
     height: 100%;
     
 }
@@ -70,4 +67,8 @@ html {
 }
 #hero-location {
     margin-top: -1.25rem;
+}
+#about-me-text {
+    padding-top: 10%;
+    font-size: 25px;
 }

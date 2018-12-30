@@ -5,38 +5,69 @@
     background-position: center;
     background-attachment: fixed;
 }
-
-/* .body {
-    background-color: papayawhip;
-} */
-
+#nav-section {
+    padding-right: 20%;
+    padding-top: 1%;
+}
 #navbar-word {
     font-size: 30px;
- 
+    text-shadow: 1px 1px black;
 }
-
-.headerName {
-    color: slategray;
+.section-title {
+    color: black;
+    font-size: 55px;
+    padding-top: 5%;
+    text-align: center;
+    padding-right: 25%;
+}
+.sect {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#navbar-word:hover {
+    color: skyblue;
+}
+.hero-name, .hero-subtitle {
+    color: white;
+}
+.hero-name {
+    font: 55px;
+}
+.title {
+    color: white;
 }
 #about-me, #experience {
     height: 600px;
+    background: rgba(255,255,255,.5)
 }
 #content {
     opacity: 0.5;
 }
-
+#about-me-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(255,255,255,.9);
+    height: 100%;
+    
+}
 body, html {
     height: 100%;
 }
 .parallax {
-    background-image: url("https://images.unsplash.com/photo-1504983376254-592a0ea9b0cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2382&q=80");
-    height: 100%;
+    background-image: url("https://i.imgur.com/xCEXoBx.jpg");
+    height: 70%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #parallax2{
-    background-image: url("https://i.imgur.com/xCEXoBx.jpg");
-    height: 60%;
+    background-image: url("https://i.imgur.com/HvBMkoz.jpg");
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+#hero-location {
+    margin-top: -1.25rem;
 }

@@ -14,10 +14,10 @@
     text-shadow: 1px 1px black;
 }
 .section-title {
-    color: white;
-    font-size: 55px;
+    color: black;
+    font-size: 30px;
     padding-top: 5%;
-    text-align: center;
+    text-align: left;
     padding-right: 25%;
 }
 
@@ -33,19 +33,38 @@
 .title {
     color: white;
 }
-#about-me, #experience {
-    height: 600px;
-    background: rgba(255,255,255,0)
+#portfolio {
+    height: 30%;
+}
+#portfolio-title {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+#about-me {
+    /* height: 700px; */
+    height: 60%;
+    background: #ffffff66;
+    padding-bottom: 10%;
+   
+}
+#experience {
+    height: 30%;
+    background-color: #49515c;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    padding-top: 60px;
+    padding-left: 10%;
 }
 #content {
-    color: white;
+    color: black;
 }
+
 #about-me-box {
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(255,255,255,0);
     height: 100%;
-    
 }
 body, html {
     height: 100%;
@@ -68,7 +87,28 @@ html {
 #hero-location {
     margin-top: -1.25rem;
 }
+#projects {
+    text-align: center;
+}
+.project {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 #about-me-text {
-    padding-top: 10%;
-    font-size: 25px;
+    padding-top: 5%;
+    font-size: 2vh;
+}
+@media only screen and (max-width: 812px) {
+    #about-me-text {
+        font-size: 15px;
+    }
+    #about-me {
+        height: 75%;
+    }
+
+}
+@media only screen and (min-width: 1280px) {
+    .section-title {
+        font-size: 45px;
+    }
 }

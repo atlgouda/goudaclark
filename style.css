@@ -30,11 +30,11 @@
 .hero-name {
     font: 55px;
 }
-.title {
+/* .title {
     color: white;
-}
+} */
 #portfolio {
-    height: 30%;
+    height: 20%;
 }
 #portfolio-title {
     color: black;
@@ -48,14 +48,18 @@
     padding-bottom: 10%;
    
 }
+#experience-title {
+    color: white;
+}
 #experience {
     height: 30%;
-    background-color: #49515c;
-    border-bottom: 4px solid white;
-    border-top: 4px solid white;
+    background-color: #23282D;
+    /* border-bottom: 4px solid white;
+    border-top: 4px solid white; */
     padding-top: 60px;
     padding-left: 10%;
-}
+
+}   
 #content {
     color: black;
 }
@@ -65,6 +69,10 @@
     margin-right: 10%;
     background: rgba(255,255,255,0);
     height: 100%;
+}
+#portfolio-box {
+    background: rgba(255,255,255,.1);
+    height: 30%
 }
 body, html {
     height: 100%;
@@ -94,9 +102,18 @@ html {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 #about-me-text {
     padding-top: 5%;
     font-size: 2vh;
+}
+#showcase-site {
+    display: flex;
+    justify-content: center;
+}
+#additional-sites {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 @media only screen and (max-width: 812px) {
     #about-me-text {

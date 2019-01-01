@@ -39,7 +39,7 @@
             </div>
         </div>
     </section>
-    <div id="parallax2" class="parallax">
+    <div id="parallax2" class="parallax"></div>
             <div id="about-me">
                 <div id="about-me-box">
                     <div id="content">
@@ -57,21 +57,55 @@
     </div>
     <section id="experience">
             <div id="content">
-                <h1 class="title is-1">Experience</h1>
+                <h1 id="experience-title" class="title is-1">Experience</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dicta. Suscipit nam sit voluptas non ducimus distinctio dignissimos quidem dolores excepturi quas enim maxime molestiae laudantium corrupti, facilis a delectus.</p>
         </div>
         </section>
     <div class="parallax"></div>
     <section id="portfolio">
-        <div>
+    <div class="parallax">
+        <div id="portfolio-box">
             <h1 id="portfolio-title">Portfolio</h1>
-            <p id="projects">
-                <span class="project">Project One</span>
-                <span class="project">Project Two</span>
-                <span class="project">Project Three</span>
-            </p>
+                <div class="tile is-ancestor is-vertical">
+                    <div id="showcase-site" class="tile is-parent">
+                            <article class="tile is-child box is-5">
+                                    <p class="title">Parks List</p>
+                                    <p class="subtitle">Guide to US national parks</p>
+                                    <figure class="image is-4x3">
+                                        <img src="https://i.imgur.com/TWMUzRU.png">
+                                    </figure>
+                                </article>
+                    </div>
+                    <div id="additional-sites" class="tile is-parent">
+                        <article class="tile is-child box is-4">
+                                <p class="title">Restaurant Guide</p>
+                                <p class="subtitle">Full CRUD app for adding a user's new restaurants</p>
+                                <figure class="image is-4x3">
+                                    <img src="https://i.imgur.com/axY7uWI.png?1">
+                                </figure>
+                            </article>
+                   
+                        <article class="tile is-child box">
+                            <p class="title">League of Your Imagination</p>
+                            <p class="subtitle">An app to make the ultimate fantasy team</p>
+                            <figure class="image is-4x3">
+                                <img src="https://i.imgur.com/uUoAuyS.png">
+                            </figure>
+                        </article>
+                        <article class="tile is-child box is-4">
+                                <p class="title">Old School Jeopardy</p>
+                                <p class="subtitle">Jeopardy based game for classic hip hop trivia</p>
+                                <figure class="image is-4x3">
+                                    <img src="https://i.imgur.com/zDpSNHj.png">
+                                </figure>
+                            </article>                        
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+
+    <br>
     <footer class="footer is-fixed-bottom">
         <div class="content has-text-centered is-large">
             <span class="icon">
@@ -92,5 +126,6 @@
             </span>
         </div>
     </footer>
+</section>
 </body>
 </html>

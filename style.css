@@ -70,10 +70,6 @@
     background: rgba(255,255,255,0);
     height: 100%;
 }
-#portfolio-box {
-    background: rgba(255,255,255,.1);
-    height: 30%
-}
 body, html {
     height: 100%;
 }

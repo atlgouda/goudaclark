@@ -105,6 +105,31 @@
 
                                         <p class="title">Old School Jeopardy</p>
                                         <p class="subtitle">Jeopardy based game for classic hip hop trivia</p>
+                                        <button id="jeopardyBtn" class="button is-link">See Details</button>
+                                        <div id="jeopardyModal" class="modal">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <span id="jeopardyClose" class="close">&times;</span>
+                                                <h2 class="modal-header-text">Old School Jeopardy</h2>
+                                            </div>
+                                                <h2 class="modal-subheader">Inspiration</h2>
+                                                <p class="modal-summary">Some of my favorite viral clips from Jeopardy are when Alex Trebek reads the clues from categories about rap music. I used this as an inspiration to make my Old School Rap game.</p>
+                                                <h2 class="modal-subheader">Overview</h2>
+                                                <p class="modal-summary">Once users come to the site the game board will load. The player then can choose from 9 different questions over 3 categories. The player will select a square, and then a multiple choice question will display. As they answer questions correctly, the corresponding point total will be added to their scoreboard. The game ends when either the player reaches 100 points, or there are no more tiles to select. If a player would like to reset the game at any point, they can click the reset button.</p>
+                                                <h2 class="modal-subheader">Technologies Used</h2>
+                                                <ul>
+                                                    <li class="technology-item">HTML5</li>
+                                                    <li class="technology-item">CSS</li>
+                                                    <li class="technology-item">Javascript</li>
+                                                    <li class="technology-item">jQuery</li>
+                                                    <li class="technology-item">CSS Grid</li>
+                                                    <li class="technology-item">Sweet Alert</li>
+                                                    <li class="technology-item">Bootstrap</li>
+                                                    <li class="technology-item">Google Fonts</li>
+                                                    <li class="technology-item">Github</li>
+                                                </ol>
+                                            </div>
+                                        </div>
                                         <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/">
                                         <figure class="image is-4x3">
                                             <img src="https://i.imgur.com/zDpSNHj.png">
@@ -112,18 +137,20 @@
                                     </a>
                                     </article>     
                                     <article class="tile is-child box">
-                                            <a target="_blank" rel="noopener noreferrer" href="https://glacial-falls-57693.herokuapp.com/teams">
                                             <p class="title">League of Your Imagination</p>
                                             <p class="subtitle">An app to make the ultimate fantasy team</p>
+                                            <a target="_blank" rel="noopener noreferrer" href="https://glacial-falls-57693.herokuapp.com/teams">
+
                                             <figure class="image is-4x3">
                                                 <img src="https://i.imgur.com/uUoAuyS.png">
                                             </figure>
                                             </a>
                                         </article>
                         <article class="tile is-child box is-4">
-                            <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/">               
                                 <p class="title">Restaurant Guide</p>
                                 <p class="subtitle">Full CRUD app for adding a user's new restaurants</p>
+                                <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/">               
+
                                 <figure class="image is-4x3">
                                     <img src="https://i.imgur.com/axY7uWI.png?1">
                                 </figure>
@@ -174,6 +201,21 @@
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
+      }
+    }
+
+    var jModal = document.getElementById('jeopardyModal');
+    var jBtn = document.getElementById("jeopardyBtn");
+    var jSpan = document.getElementById("jeopardyClose");
+    jBtn.onclick = function() {
+      jModal.style.display = "block";
+    }
+    jSpan.onclick = function() {
+      jModal.style.display = "none";
+    }
+    window.onclick = function(event) {
+      if (event.target == jModal) {
+        jModal.style.display = "none";
       }
     }
 

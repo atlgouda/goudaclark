@@ -70,24 +70,26 @@
                             <article class="tile is-child box is-5">
                                     <p class="title">Parks List</p>
                                     <p class="subtitle" id="parks-list-subtitle">Guide to US national parks</p>
-                                        <button id="myBtn" class="button">See Details</button>
+                                        <button id="myBtn" class="button is-link">See Details</button>
                                         <div id="myModal" class="modal">
                                             <div class="modal-content">
+                                                <div class="modal-header">
                                                 <span class="close">&times;</span>
-                                                <h1 class="modal-header">Parks List</h1>
+                                                <h2 class="modal-header-text">Parks List</h2>
+                                            </div>
                                                 <h2 class="modal-subheader">Summary</h2>
-                                                <p>A guide for users to see National Parks by state and find additional information for each park.  The user also has the capability to add parks to a Wish List of parks they would like to visit.</p>
-                                                <h2 class="modal-subheader">Technology Used</h2>
-                                                <ol>
-                                                    <li>React</li>
-                                                    <li>Ruby On Rails</li>
-                                                    <li>Heroku</li>
-                                                    <li>Postman</li>
-                                                    <li>HTML5</li>
-                                                    <li>CSS</li>
-                                                    <li>Github</li>
-                                                    <li>National Parks Service API</li>
-                                                    <li>HTTParty</li>
+                                                <p class="modal-summary">A guide for users to see national parks by state and find additional information for each park.  The user also has the capability to add parks to a wish list of parks they would like to visit.</p>
+                                                <h2 class="modal-subheader">Technologies Used</h2>
+                                                <ul>
+                                                    <li class="technology-item">React</li>
+                                                    <li class="technology-item">Ruby On Rails</li>
+                                                    <li class="technology-item">Heroku</li>
+                                                    <li class="technology-item">Postman</li>
+                                                    <li class="technology-item">HTML5</li>
+                                                    <li class="technology-item">CSS</li>
+                                                    <li class="technology-item">Github</li>
+                                                    <li class="technology-item">National Parks Service API</li>
+                                                    <li class="technology-item">HTTParty</li>
                                                 </ol>
                                             </div>
                                         </div>
@@ -100,9 +102,10 @@
                                        </div>
                     <div id="additional-sites" class="tile is-parent">
                             <article class="tile is-child box is-4">
-                                    <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/">
+
                                         <p class="title">Old School Jeopardy</p>
                                         <p class="subtitle">Jeopardy based game for classic hip hop trivia</p>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/">
                                         <figure class="image is-4x3">
                                             <img src="https://i.imgur.com/zDpSNHj.png">
                                         </figure>
@@ -173,6 +176,8 @@
         modal.style.display = "none";
       }
     }
+
+    
     </script>
 </body>
 </html>

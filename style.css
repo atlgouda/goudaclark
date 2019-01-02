@@ -119,6 +119,7 @@ html {
     display: none;
     position: fixed;
     z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
@@ -128,12 +129,27 @@ html {
     background-color: (0,0,0,0.4);
 }
 .modal-content {
+    position: relative;
     background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
+    margin: auto;
+    padding: 0;
     border: 1px solid #888;
     width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
 }
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
 .close {
     color: #aaa;
     float: right;
@@ -146,6 +162,25 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+.modal-header {
+ padding: 2px 16px;
+ background-color: #4e5964;
+ color: white;
+}
+.modal-subheader {
+    font-size: 25px;
+}
+.modal-header-text {
+    font-size: 40px;
+}
+.modal-subheader {
+    padding-left: 15px;
+}
+.technology-item,
+.modal-summary {
+    padding-left: 25px;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 812px) {
     #about-me-text {

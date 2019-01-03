@@ -98,7 +98,21 @@ html {
     padding-left: 5%;
     padding-right: 5%;
 }
-
+.tile-box {
+    display: flex;
+    justify-content: space-between;
+}
+#jeopardyBtn,
+#myBtn {
+    display: flex;
+    justify-content: space-between;
+   
+    z-index: 1;
+}
+#jeopardy-title {
+    display: flex;
+    justify-content: space-between;
+}
 #about-me-text {
     padding-top: 5%;
     font-size: 2vh;
@@ -118,7 +132,7 @@ html {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -171,6 +185,7 @@ html {
     font-size: 25px;
 }
 .modal-header-text {
+    padding-top: 25px;
     font-size: 40px;
 }
 .modal-subheader {
@@ -180,6 +195,7 @@ html {
 .modal-summary {
     padding-left: 25px;
 }
+
 
 /* Media Queries */
 @media only screen and (max-width: 812px) {

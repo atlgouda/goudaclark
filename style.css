@@ -305,6 +305,9 @@ html {
         /* background-attachment: fixed; */
         background-attachment: initial;
     }
+    .hero-body {
+        position: inherit;
+    }
     #about-me-text {
         font-size: 15px;
     }

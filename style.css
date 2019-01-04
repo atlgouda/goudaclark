@@ -271,8 +271,9 @@ html {
 
 /* Media Queries */
 @media only screen and (max-width: 812px) {
+    #parallax2,
     .hero {
-        background-image: url("https://i.imgur.com/HvBMkoz.jpg")
+        background-image: url("https://i.imgur.com/DtuG0zk.jpg")
     }
     #about-me-text {
         font-size: 15px;

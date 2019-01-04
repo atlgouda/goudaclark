@@ -34,29 +34,20 @@
 /* .title {
     color: white;
 } */
-#portfolio {
-    /* background-image: url("https://i.imgur.com/xCEXoBx.jpg"); */
+/* #portfolio {
     display: inline-block;
-    /* height: 100%; */
-    /* background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
     background-color: whitesmoke;
-}
-#portfolio-title {
+} */
+/* #portfolio-title {
     color: white;
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
     text-shadow: 1px 1px black;
-    /* padding-top: 10%; */
     background-color: #23282D;
-    /* width: 41.66%; */
     margin-left: auto;
     margin-right: auto;
-    /* border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
-}
+} */
 #about-me {
     /* height: 700px; */
     display: inline-block;
@@ -68,21 +59,30 @@
 #learnMore {
     margin-top: 5%;
 }
+/* .text-box {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+} */
+#portfolio-title,
 #experience-title {
     color: white;
 }
+#portfolio-content,
 #experience-content {
     color: white;
     font-size: 2vh;
     padding-right: 10%;
 }
+#portfolio,
 #experience {
     height: 30%;
     background-color: #23282D;
     /* border-bottom: 4px solid white;
     border-top: 4px solid white; */
-    padding-top: 60px;
+    padding-top: 30px;
     padding-left: 10%;
+    padding-bottom: 10%;
 
 }   
 #content {
@@ -197,8 +197,8 @@ html {
     height: 150px; 
 }
 .icon {
-    50px; */
-}
+    50px;
+} */
 /* Modal Info */
 .modal {
     display: none;
@@ -274,12 +274,39 @@ html {
         font-size: 15px;
     }
     #about-me {
-        height: 75%;
+        height: 100%;
+    }
+    #portfolio,
+    #experience {
+        height: 50%;
     }
 
 }
+/* Desktop */
 @media only screen and (min-width: 1280px) {
     .section-title {
         font-size: 45px;
     }
+}
+/* Mobile Landscape */
+@media only screen and (max-height: 500px) {
+    #portfolio-content,
+    #experience-content  {
+        font-size: 15px;
+    }
+    #portfolio-title,
+    #experience-title {
+        font-size: 25px;
+    }
+    #portfolio,
+    #experience {
+        height: 50%;
+    }
+    #jeopardy-title,
+    #league-title,
+    #rest-title {
+        font-size: 20px;
+    }
+    
+
 }

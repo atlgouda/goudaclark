@@ -271,6 +271,9 @@ html {
 
 /* Media Queries */
 @media only screen and (max-width: 812px) {
+    .hero {
+        background-image: url("https://i.imgur.com/HvBMkoz.jpg")
+    }
     #about-me-text {
         font-size: 15px;
     }

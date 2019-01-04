@@ -293,9 +293,10 @@ html {
 
     }
     .parallax {
-        background-image: none;
-        background-color: lightgray;
+        background-image: url("https://i.imgur.com/z0qAC3O.jpg?1");
+        /* background-color: lightgray; */
         height: 15vh;
+        background-size: cover;
     }
     .hero {
         /* background-image: url("https://i.imgur.com/rXIJpXi.jpg?2"); */

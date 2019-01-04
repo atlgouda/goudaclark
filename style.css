@@ -271,7 +271,7 @@ html {
 
 /* Media Queries */
 @media only screen and (max-width: 812px) {
-    #parallax2,
+    /* #parallax2,
     .hero {
         background-image: url("https://i.imgur.com/DtuG0zk.jpg");
         background-attachment: scroll;
@@ -282,6 +282,15 @@ html {
         overflow-x: hidden;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
+    } */
+    #parallax2,
+    .hero {
+        background-image: url("https://i.imgur.com/rXIJpXi.jpg?2");
+        height: 100%;
+        background-size: cover;
+        /* background-position: center; */
+        /* background-attachment: fixed; */
+
     }
     #about-me-text {
         font-size: 15px;

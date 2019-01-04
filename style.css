@@ -35,25 +35,27 @@
     color: white;
 } */
 #portfolio {
-    background-image: url("https://i.imgur.com/xCEXoBx.jpg");
-    height: 100%;
-    background-size: cover;
+    /* background-image: url("https://i.imgur.com/xCEXoBx.jpg"); */
+    display: inline-block;
+    /* height: 100%; */
+    /* background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: whitesmoke;
 }
 #portfolio-title {
-    color: lightgray;
+    color: white;
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
     text-shadow: 1px 1px black;
     /* padding-top: 10%; */
-    background-color: darkslategray;
-    width: 41.66%;
+    background-color: #23282D;
+    /* width: 41.66%; */
     margin-left: auto;
     margin-right: auto;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
 }
 #about-me {
     /* height: 700px; */
@@ -155,6 +157,47 @@ html {
 #additional-sites {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+/* #footer-div {
+    height: 150px; 
+}
+.icon {
+    50px; */
 }
 /* Modal Info */
 .modal {

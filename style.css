@@ -337,6 +337,7 @@ html {
     .hero-body {
         background-attachment: unset;
         display: none;
+        overflow: hidden;
     }
     #about-me-text {
         font-size: 15px;
@@ -389,6 +390,11 @@ html {
     #league-title,
     #rest-title {
         font-size: 20px;
+    }
+    .hero-body {
+        background-attachment: unset;
+        display: none;
+        overflow: hidden;
     }
     
 

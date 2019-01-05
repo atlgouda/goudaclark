@@ -393,7 +393,7 @@ html {
     }
     .hero-text {
         background-attachment: unset;
-        display: none;
+        /* display: none; */
         overflow: hidden;
     }
     

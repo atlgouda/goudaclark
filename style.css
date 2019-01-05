@@ -334,7 +334,7 @@ html {
         /* background-attachment: fixed; */
 
     }
-    .hero-body {
+    .hero-text {
         background-attachment: unset;
         display: none;
         overflow: hidden;
@@ -391,7 +391,7 @@ html {
     #rest-title {
         font-size: 20px;
     }
-    .hero-body {
+    .hero-text {
         background-attachment: unset;
         display: none;
         overflow: hidden;

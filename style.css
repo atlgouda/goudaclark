@@ -248,6 +248,14 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 16px;
+    background-color: #4e5964;
+    color: white;
+}
+
 .modal-header {
  padding: 2px 16px;
  background-color: #4e5964;
@@ -263,11 +271,29 @@ html {
 .modal-subheader {
     padding-left: 15px;
 }
+#enter-site-btn,
+#cancel-btn {
+    margin-right: 25px;
+}
+
 .technology-item,
 .modal-summary {
     padding-left: 25px;
+    padding-right: 25px;
 }
-
+.modal-header,
+.technology-list {
+    padding-bottom: 20px;
+}
+.modal-content {
+    max-width: 900px;
+}
+#myBtn, #leagueBtn, #jeopardyBtn, #restBtn {
+    margin-left: 15px;
+}
+#showcase-site {
+    padding-top: 35px;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 812px) {

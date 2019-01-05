@@ -335,9 +335,9 @@ html {
 
     }
     .hero-text {
-        background-attachment: unset;
-        display: none;
-        overflow: hidden;
+        background-attachment: initial;
+        /* display: none; */
+        overflow: visible;
     }
     #about-me-text {
         font-size: 15px;

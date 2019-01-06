@@ -404,7 +404,7 @@ html {
     }
     #portfolio-title,
     #experience-title {
-        font-size: 25px;
+        font-size: 3rem;
     }
     #portfolio,
     #experience {
@@ -433,7 +433,7 @@ html {
     background-color: #23282D;
     /* border-bottom: 4px solid white;
     border-top: 4px solid white; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-left: 0;
     padding-bottom: 50px;
 }
@@ -461,4 +461,24 @@ html {
 #parallax2 {
     background-image: none;
     height: 50vh;
+}
+/* #second-photo {
+    
+        background-image: url("https://i.imgur.com/xCEXoBx.jpg");
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-attachment: initial;
+
+    } */
+#second-photo-landscape {
+    background-image: url("https://i.imgur.com/xCEXoBx.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-attachment: initial;
+
+}
 }

@@ -1,419 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131747482-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-131747482-1');
-</script>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131747482-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-131747482-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
- 
     <script src='./main.js'></script>
     <title>Gouda Clark</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body class="body">
     <section class="hero is-black is-fullheight-with-navbar">
         <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main-navigation">
-           <!-- <div class="navbar-brand"> -->
             <div class="navbar-menu">
                 <div id="nav-section" class="navbar-end">
-                    <a id="navbar-word" class="navbar-item" onclick="myFunction()">
-                        About Me
-                    </a>
-                    <a id="navbar-word" class="navbar-item" onclick="experienceScroll()">
-                        Skills
-                    </a>
-                    <a id="navbar-word" class="navbar-item" onclick="portfolioScroll()">
-                        Portfolio
-                    </a>
+                    <a id="navbar-word" class="navbar-item" onclick="myFunction()">About Me</a>
+                    <a id="navbar-word" class="navbar-item" onclick="experienceScroll()">Skills</a>
+                    <a id="navbar-word" class="navbar-item" onclick="portfolioScroll()">Portfolio</a>
                 </div>
-                
+                <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a> -->
             </div>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                  </a>
-                  <!-- </div> -->
         </nav>
-
-
-            <div class="hero-body">
+        <div class="hero-body">
             <div class="container">
                 <div class="parallax-container">
                     <!-- <div class="parallax-child"> -->
-
-                <div class="hero-text">
-                <h1 class="title is-1">Hi, I'm Gouda Clark</h1>
-                <h3 class="subtitle is-3">I'm a full stack web developer,</h3>
-                <h3 id="hero-location" class="subtitle is-3">and this is my portfolio.</h3>
-            <!-- </div> -->
-            </div>
-        </div>
+                    <div class="hero-text">
+                        <h1 class="title is-1">Hi, I'm Gouda Clark</h1>
+                        <h3 class="subtitle is-3">I'm a full stack web developer,</h3>
+                        <h3 id="hero-location" class="subtitle is-3">and this is my portfolio.</h3>
+                        <!-- </div> -->
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <div id="parallax2" class="parallax">
-            <div id="about-me">
-                <div id="about-me-box">
-                    <div id="content">
-                        <h1 class="section-title">About Me</h1>
-                        <p id="about-me-text" class="section-text">
-                            
-                            I'm a full-stack developer, based in the city of Atlanta. <br>
-                            I have built sites in different languages, using various libraries and frameworks,<br>
-                            And I'm looking for new opportunities.<br>
-                            I thrive outside of my comfort zone.<br>
-                            Go ahead. Throw me a curveball.<br>
-                            I am adaptable, motivated, and confident.<br>
-                            I keep learning. Striving. Growing.
-                        </p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/design/DADK8ax3vqY/view">
+        <div id="about-me">
+            <div id="about-me-box">
+                <div id="content">
+                    <h1 class="section-title">About Me</h1>
+                    <p id="about-me-text" class="section-text">
+                        I'm a full-stack developer, based in the city of Atlanta. <br>
+                        I have built sites in different languages, using various libraries and frameworks,<br>
+                        And I'm looking for new opportunities.<br>
+                        I thrive outside of my comfort zone.<br>
+                        Go ahead. Throw me a curveball.<br>
+                        I am adaptable, motivated, and confident.<br>
+                        I keep learning. Striving. Growing.
+                    </p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/design/DADK8ax3vqY/view">
                         <button id="learnMore" class="button is-info">Learn More</button>
-                        </a>
-                    </div>
+                    </a>
                 </div>
-                </div>
-    </div>
-    <section id="experience">
-            <div id="content" class="text-box">
-                <h1 id="experience-title" class="title is-1">Skills</h1>
-                <p id="experience-content">I have built full-stack web applications using:<br>
-                React, Ruby on Rails, HTML, CSS, JavaScript, JQuery, Node.js, Express, Handlebars, MongoDB, Mongoose,  Heroku, SQL, Bulma, and Bootstrap</p>
+            </div>
         </div>
-        </section>
+    </div>
+
+    <div id="second-photo">
+    </div>
+    
+    <section id="experience">
+        <div id="content" class="text-box">
+            <h1 id="experience-title" class="title is-1">Skills</h1>
+            <p id="experience-content">I have built full-stack web applications using:<br>
+                React, Ruby on Rails, HTML, CSS, JavaScript, JQuery, Node.js, Express, Handlebars, MongoDB, Mongoose,
+                Heroku, SQL, Bulma, and Bootstrap</p>
+        </div>
+    </section>
     <div class="parallax"></div>
     <section id="portfolio">
         <div id="portfolio-box">
             <div class="text-box">
-            <h1 id="portfolio-title" class="title is-1">Portfolio</h1>
-            <p id="portfolio-content">Click "More" to see my inspiration, skills and technologies used, and overview of each site.</p>
-        </div>
-        </section>
-            <div class="tile is-ancestor is-vertical">
-                    <div id="showcase-site" class="tile is-parent">
-                            <article class="tile is-child box is-5">
-                            <div class="tile-box">
-                                    <p id="parks-title" class="title">Parks List</p>
-                                        <button id="myBtn" class="button is-link">More</button>
-                                    </div>
-                                        <div id="myModal" class="modal">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                <span class="close">&times;</span>
-                                                <h2 class="modal-header-text">Parks List</h2>
-                                            </div>
-                                            <h2 class="modal-subheader">Inspiration</h2>
-                                            <p class="modal-summary">I always thought the ideal road trip would be packing up an RV and touring the US national parks. I chose to create an app to learn more about each park and create a "Wish List" of which locations to visit.</p>
-                                            <h2 class="modal-subheader">Skills</h2>
-                                            <p class="modal-summary">This was my final project in my Web Development Immersive course, and I used the opportunity to utilize Ruby on Rails. It was a great chance to implement a new programming language and server-side web application framework.  I also chose to take a deeper dive with the styled components in React.  To toggle between different versions of my site, I created multiple branches in my GitHub repository.</p>
-                                            
-                                            <h2 class="modal-subheader">Overview</h2>
-                                            <p class="modal-summary">Once a user comes to the site, they will get to a landing page to enter the site.  After entering, they have the option to see the list of parks, add a park to their wish list, search parks by state, and see more of a park's information on a "show one" page.</p>
-                                            <h2 class="modal-subheader">Technologies Used</h2>
-                                                <ul class="technology-list">
-                                                    <li class="technology-item">React</li>
-                                                    <li class="technology-item">Ruby On Rails</li>
-                                                    <li class="technology-item">Heroku</li>
-                                                    <li class="technology-item">Postman</li>
-                                                    <li class="technology-item">HTML5</li>
-                                                    <li class="technology-item">CSS</li>
-                                                    <li class="technology-item">GitHub</li>
-                                                    <li class="technology-item">National Parks Service API</li>
-                                                    <li class="technology-item">HTTParty</li>
-                                                </ul>
-                                                <footer class="modal-footer">
-                                                        <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/"> 
-                                                    <button id="enter-site-btn" class="button is-link">Go to site</button></a>      
-                                                    <button id="cancel-btn" class="button is-light">Cancel</button>      
-                                                </footer>
-                                            </div>
-                                        </div>
-                                       
-                                        <p class="subtitle" id="parks-list-subtitle">Guide to US national parks</p>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/">
-                                    <figure class="image is-4x3">
-                                        <img src="https://i.imgur.com/TWMUzRU.png">
-                                    </figure>
-                                </a>
-                                </article>
-                                       </div>
-                    <div id="additional-sites" class="tile is-parent">
-                            <article class="tile is-child box is-4">
-                                <div class="tile-box">
-                                        <p id="jeopardy-title" class="title">Old School Jeopardy</p>
-                                        <button id="jeopardyBtn" class="button is-link">More</button>
-                                    
-                                        <div id="jeopardyModal" class="modal">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                <span id="jeopardyClose" class="close">&times;</span>
-                                                <h2 class="modal-header-text">Old School Jeopardy</h2>
-                                            </div>
-                                                <h2 class="modal-subheader">Inspiration</h2>
-                                                <p class="modal-summary">Some of my favorite viral clips from Jeopardy are when Alex Trebek reads the clues from categories about rap music. I used this as an inspiration to make my Old School Rap game.</p>
-                                                <h2 class="modal-subheader">Skills</h2>
-                                                <p class="modal-summary">This was the first project in my Web Development course.  Two weeks into the course, I built a Jeopardy based game to demonstrate my ability to use HTML and CSS to build and style an intuitive web application.  I used JavaScript to show my compentancy in DOM manipulation. I began the project by organizing my tasks with Trello, and wireframing out my site.  Throughout the project, I had to frequently commit on GitHub to implement version control.</p>
-                                                
-                                                <h2 class="modal-subheader">Overview</h2>
-                                                <p class="modal-summary">Once users come to the site the game board will load. The player then can choose from 9 different questions over 3 categories. The player will select a square, and then a multiple choice question will display. As they answer questions correctly, the corresponding point total will be added to their scoreboard. The game ends when either the player reaches 100 points, or there are no more tiles to select. If a player would like to reset the game at any point, they can click the reset button.</p>
-                                                <h2 class="modal-subheader">Technologies Used</h2>
-                                                <ul class="technology-list">
-                                                    <li class="technology-item">HTML5</li>
-                                                    <li class="technology-item">CSS</li>
-                                                    <li class="technology-item">JavaScript</li>
-                                                    <li class="technology-item">jQuery</li>
-                                                    <li class="technology-item">CSS Grid</li>
-                                                    <li class="technology-item">Sweet Alert</li>
-                                                    <li class="technology-item">Bootstrap</li>
-                                                    <li class="technology-item">Google Fonts</li>
-                                                    <li class="technology-item">GitHub</li>
-                                                    <li class="technology-item">Netlify</li>
-                                                </ul>
-                                                <footer class="modal-footer">
-                                                        <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/"> 
-                                                    <button id="enter-site-btn" class="button is-link">Go to site</button></a>      
-                                                    <button id="jeopardyCancel" class="button is-light">Cancel</button>      
-                                                </footer>
-                                            </div>
-                                        </div>
+                <h1 id="portfolio-title" class="title is-1">Portfolio</h1>
+                <p id="portfolio-content">Click "More" to see my inspiration, skills and technologies used, and
+                    overview of each site.</p>
+            </div>
+    </section>
+    <div class="tile is-ancestor is-vertical">
+        <div id="showcase-site" class="tile is-parent">
+            <article class="tile is-child box is-5">
+                <div class="tile-box">
+                    <p id="parks-title" class="title">Parks List</p>
+                    <button id="myBtn" class="button is-link">More</button>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2 class="modal-header-text">Parks List</h2>
+                        </div>
+                        <h2 class="modal-subheader">Inspiration</h2>
+                        <p class="modal-summary">I always thought the ideal road trip would be packing up an RV and
+                            touring the US national parks. I chose to create an app to learn more about each park and
+                            create a "Wish List" of which locations to visit.</p>
+                        <h2 class="modal-subheader">Skills</h2>
+                        <p class="modal-summary">This was my final project in my Web Development Immersive course, and
+                            I used the opportunity to utilize Ruby on Rails. It was a great chance to implement a new
+                            programming language and server-side web application framework. I also chose to take a
+                            deeper dive with the styled components in React. To toggle between different versions of my
+                            site, I created multiple branches in my GitHub repository.</p>
 
-                                        </div>
-                                        <p class="subtitle">Jeopardy based game for classic hip hop trivia</p>
-                                    
-                                        <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/">
-                                        <figure class="image is-4x3">
-                                            <img src="https://i.imgur.com/zDpSNHj.png">
-                                        </figure>
-                                    </a>
-                                    </article>     
-                                    <article class="tile is-child box is-4">
-                                        <div class="tile-box">
-                                            <p id="league-title" class="title">League of Your Imagination</p>
-                                            
-                                            <button id="leagueBtn" class="button is-link">More</button>
-                                            <div id="leagueModal" class="modal">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                    <span id="leagueClose" class="close">&times;</span>
-                                                    <h2 class="modal-header-text">League of Your Imagination</h2>
-                                                </div>
-                                                    <h2 class="modal-subheader">Inspiration</h2>
-                                                    <p class="modal-summary">My friends and I often have a debate about which athletes would do well in other sports on a professional level. Could Lebron be a soccer striker? What if Tom Glavine chose his NHL contact over becoming a starting pitcher. With this thought in mind I built a site in which users can create teams filled with whichever players they choose, and have them play games at any location.</p>         
-                                                    <h2 class="modal-subheader">Skills</h2>
-                                                    <p class="modal-summary">This project was my full stack application.  I built a Node/Express app with Mongo/Mongoose with three full CRUD models.</p>
-                                                    
-                                                    <h2 class="modal-subheader">Overview</h2>
-                                                    <p class="modal-summary">                                               
-                                                    The user will enter into a league with some teams that have already been pre-seeded. From there they will have the ability to create/edit/delete teams, schedules, players and games.  They will also be able to load images for logos, locations, and players (plus be able to create a baketball card for each player!)
-                                                    </p>
-                                                    <h2 class="modal-subheader">Technologies Used</h2>
-                                                    <ul class="technology-list">
-                                                        <li class="technology-item">HTML5</li>
-                                                        <li class="technology-item">CSS</li>
-                                                        <li class="technology-item">Express</li>
-                                                        <li class="technology-item">Bulma</li>
-                                                        <li class="technology-item">Google Fonts</li>
-                                                        <li class="technology-item">MongoDB</li>
-                                                        <li class="technology-item">Mongoose</li>
-                                                        <li class="technology-item">Node</li>
-                                                        <li class="technology-item">Heroku</li>
-                                                        <li class="technology-item">GitHub</li>
-                                                    </ul>
-                                                    <footer class="modal-footer">
-                                                            <a target="_blank" rel="noopener noreferrer" href="https://glacial-falls-57693.herokuapp.com/teams"> 
-                                                        <button id="enter-site-btn" class="button is-link">Go to site</button></a>      
-                                                        <button id="leagueCancel" class="button is-light">Cancel</button>      
-                                                    </footer>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p class="subtitle">An app to make the ultimate fantasy team</p>
-                                            <a target="_blank" rel="noopener noreferrer" href="https://glacial-falls-57693.herokuapp.com/teams">
-                                            <figure class="image is-4x3">
-                                                <img src="https://i.imgur.com/uUoAuyS.png">
-                                            </figure>
-                                            </a>
-                                        </article>
-                        <article class="tile is-child box is-4">
-                            <div class="tile-box">
-                                <p id="rest-title" class="title">Restaurant Guide</p>
-                                <button id="restBtn" class="button is-link">More</button>
-                                <div id="restModal" class="modal">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <span id="restClose" class="close">&times;</span>
-                                        <h2 class="modal-header-text">Restaurant Guide</h2>
-                                    </div>
-                                        <h2 class="modal-subheader">Inspiration</h2>
-                                        <p class="modal-summary">I always try to keep a running mental list of new restauraunts I want to try, so I decided to make a tracker of where to keep them, and the neighborhoods in which they are located.</p>
-                                        <h2 class="modal-subheader">Skills</h2>
-                                                    <p class="modal-summary">This was my first project using React as a front end framework to build a mobile-first full CRUD app.</p>
-                                        <h2 class="modal-subheader">Overview</h2>
-                                        <p class="modal-summary">
-                                                Once a user comes to site, they will get to a landing page with the title and an entry button. From there, they will come to a list of users who have already had their data loaded. From here they have the option to create a new user or view a user page that displays their selected restaurants.  They can then see the restaurant page and follow a link to the restaurant's website.  A restaurant can be created, updated or deleted.</p>
-                                        <h2 class="modal-subheader">Technologies Used</h2>
-                                        <ul class="technology-list">
-                                            <li class="technology-item">HTML5</li>
-                                            <li class="technology-item">CSS</li>
-                                            <li class="technology-item">React</li>
-                                            <li class="technology-item">MongoDB</li>
-                                            <li class="technology-item">Postman</li>
-                                            <li class="technology-item">Node</li>
-                                            <li class="technology-item">Heroku</li>
-                                            <li class="technology-item">GitHub</li>
-                                        </ul>
-                                        <footer class="modal-footer">
-                                                <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/"> 
-                                            <button id="enter-site-btn" class="button is-link">Go to site</button></a>      
-                                            <button id="restCancel" class="button is-light">Cancel</button>      
-                                        </footer>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="subtitle">Full CRUD app for adding a user's new restaurants</p>
-                                <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/">               
-
-                                <figure class="image is-4x3">
-                                    <img src="https://i.imgur.com/axY7uWI.png?1">
-                                </figure>
-                                </a>
-                            </article>
+                        <h2 class="modal-subheader">Overview</h2>
+                        <p class="modal-summary">Once a user comes to the site, they will get to a landing page to
+                            enter the site. After entering, they have the option to see the list of parks, add a park
+                            to their wish list, search parks by state, and see more of a park's information on a "show
+                            one" page.</p>
+                        <h2 class="modal-subheader">Technologies Used</h2>
+                        <ul class="technology-list">
+                            <li class="technology-item">React</li>
+                            <li class="technology-item">Ruby On Rails</li>
+                            <li class="technology-item">Heroku</li>
+                            <li class="technology-item">Postman</li>
+                            <li class="technology-item">HTML5</li>
+                            <li class="technology-item">CSS</li>
+                            <li class="technology-item">GitHub</li>
+                            <li class="technology-item">National Parks Service API</li>
+                            <li class="technology-item">HTTParty</li>
+                        </ul>
+                        <footer class="modal-footer">
+                            <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/">
+                                <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                            <button id="cancel-btn" class="button is-light">Cancel</button>
+                        </footer>
                     </div>
                 </div>
-            </div>
+                <p class="subtitle" id="parks-list-subtitle">Guide to US national parks</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/">
+                    <figure class="image is-4x3">
+                        <img src="https://i.imgur.com/TWMUzRU.png">
+                    </figure>
+                </a>
+            </article>
         </div>
+        <div id="additional-sites" class="tile is-parent">
+            <article class="tile is-child box is-4">
+                <div class="tile-box">
+                    <p id="jeopardy-title" class="title">Old School Jeopardy</p>
+                    <button id="jeopardyBtn" class="button is-link">More</button>
+                    <div id="jeopardyModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="jeopardyClose" class="close">&times;</span>
+                                <h2 class="modal-header-text">Old School Jeopardy</h2>
+                            </div>
+                            <h2 class="modal-subheader">Inspiration</h2>
+                            <p class="modal-summary">Some of my favorite viral clips from Jeopardy are when Alex Trebek
+                                reads the clues from categories about rap music. I used this as an inspiration to make
+                                my Old School Rap game.</p>
+                            <h2 class="modal-subheader">Skills</h2>
+                            <p class="modal-summary">This was the first project in my Web Development course. Two weeks
+                                into the course, I built a Jeopardy based game to demonstrate my ability to use HTML
+                                and CSS to build and style an intuitive web application. I used JavaScript to show my
+                                compentancy in DOM manipulation. I began the project by organizing my tasks with
+                                Trello, and wireframing out my site. Throughout the project, I had to frequently commit
+                                on GitHub to implement version control.</p>
+                            <h2 class="modal-subheader">Overview</h2>
+                            <p class="modal-summary">Once users come to the site the game board will load. The player
+                                then can choose from 9 different questions over 3 categories. The player will select a
+                                square, and then a multiple choice question will display. As they answer questions
+                                correctly, the corresponding point total will be added to their scoreboard. The game
+                                ends when either the player reaches 100 points, or there are no more tiles to select.
+                                If a player would like to reset the game at any point, they can click the reset button.</p>
+                            <h2 class="modal-subheader">Technologies Used</h2>
+                            <ul class="technology-list">
+                                <li class="technology-item">HTML5</li>
+                                <li class="technology-item">CSS</li>
+                                <li class="technology-item">JavaScript</li>
+                                <li class="technology-item">jQuery</li>
+                                <li class="technology-item">CSS Grid</li>
+                                <li class="technology-item">Sweet Alert</li>
+                                <li class="technology-item">Bootstrap</li>
+                                <li class="technology-item">Google Fonts</li>
+                                <li class="technology-item">GitHub</li>
+                                <li class="technology-item">Netlify</li>
+                            </ul>
+                            <footer class="modal-footer">
+                                <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/">
+                                    <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                                <button id="jeopardyCancel" class="button is-light">Cancel</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <p class="subtitle">Jeopardy based game for classic hip hop trivia</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://oldschooljeopardy.netlify.com/">
+                    <figure class="image is-4x3">
+                        <img src="https://i.imgur.com/zDpSNHj.png">
+                    </figure>
+                </a>
+            </article>
+            <article class="tile is-child box is-4">
+                <div class="tile-box">
+                    <p id="league-title" class="title">League of Your Imagination</p>
+                    <button id="leagueBtn" class="button is-link">More</button>
+                    <div id="leagueModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="leagueClose" class="close">&times;</span>
+                                <h2 class="modal-header-text">League of Your Imagination</h2>
+                            </div>
+                            <h2 class="modal-subheader">Inspiration</h2>
+                            <p class="modal-summary">My friends and I often have a debate about which athletes would do
+                                well in other sports on a professional level. Could Lebron be a soccer striker? What if
+                                Tom Glavine chose his NHL contact over becoming a starting pitcher. With this thought
+                                in mind I built a site in which users can create teams filled with whichever players
+                                they choose, and have them play games at any location.</p>
+                            <h2 class="modal-subheader">Skills</h2>
+                            <p class="modal-summary">This project was my full stack application. I built a Node/Express
+                                app with Mongo/Mongoose with three full CRUD models.</p>
+                            <h2 class="modal-subheader">Overview</h2>
+                            <p class="modal-summary">
+                                The user will enter into a league with some teams that have already been pre-seeded.
+                                From there they will have the ability to create/edit/delete teams, schedules, players
+                                and games. They will also be able to load images for logos, locations, and players
+                                (plus be able to create a baketball card for each player!)</p>
+                            <h2 class="modal-subheader">Technologies Used</h2>
+                            <ul class="technology-list">
+                                <li class="technology-item">HTML5</li>
+                                <li class="technology-item">CSS</li>
+                                <li class="technology-item">Express</li>
+                                <li class="technology-item">Bulma</li>
+                                <li class="technology-item">Google Fonts</li>
+                                <li class="technology-item">MongoDB</li>
+                                <li class="technology-item">Mongoose</li>
+                                <li class="technology-item">Node</li>
+                                <li class="technology-item">Heroku</li>
+                                <li class="technology-item">GitHub</li>
+                            </ul>
+                            <footer class="modal-footer">
+                                <a target="_blank" rel="noopener noreferrer" href="https://glacial-falls-57693.herokuapp.com/teams">
+                                    <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                                <button id="leagueCancel" class="button is-light">Cancel</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <p class="subtitle">An app to make the ultimate fantasy team</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://glacial-falls-57693.herokuapp.com/teams">
+                    <figure class="image is-4x3">
+                        <img src="https://i.imgur.com/uUoAuyS.png">
+                    </figure>
+                </a>
+            </article>
+            <article class="tile is-child box is-4">
+                <div class="tile-box">
+                    <p id="rest-title" class="title">Restaurant Guide</p>
+                    <button id="restBtn" class="button is-link">More</button>
+                    <div id="restModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="restClose" class="close">&times;</span>
+                                <h2 class="modal-header-text">Restaurant Guide</h2>
+                            </div>
+                            <h2 class="modal-subheader">Inspiration</h2>
+                            <p class="modal-summary">I always try to keep a running mental list of new restauraunts I
+                                want to try, so I decided to make a tracker of where to keep them, and the
+                                neighborhoods in which they are located.</p>
+                            <h2 class="modal-subheader">Skills</h2>
+                            <p class="modal-summary">This was my first project using React as a front end framework to
+                                build a mobile-first full CRUD app.</p>
+                            <h2 class="modal-subheader">Overview</h2>
+                            <p class="modal-summary">
+                                Once a user comes to site, they will get to a landing page with the title and an entry
+                                button. From there, they will come to a list of users who have already had their data
+                                loaded. From here they have the option to create a new user or view a user page that
+                                displays their selected restaurants. They can then see the restaurant page and follow a
+                                link to the restaurant's website. A restaurant can be created, updated or deleted.</p>
+                            <h2 class="modal-subheader">Technologies Used</h2>
+                            <ul class="technology-list">
+                                <li class="technology-item">HTML5</li>
+                                <li class="technology-item">CSS</li>
+                                <li class="technology-item">React</li>
+                                <li class="technology-item">MongoDB</li>
+                                <li class="technology-item">Postman</li>
+                                <li class="technology-item">Node</li>
+                                <li class="technology-item">Heroku</li>
+                                <li class="technology-item">GitHub</li>
+                            </ul>
+                            <footer class="modal-footer">
+                                <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/">
+                                    <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                                <button id="restCancel" class="button is-light">Cancel</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <p class="subtitle">Full CRUD app for adding a user's new restaurants</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/">
+                    <figure class="image is-4x3">
+                        <img src="https://i.imgur.com/axY7uWI.png?1">
+                    </figure>
+                </a>
+            </article>
+        </div>
+    </div>
+    </div>
+    </div>
     <br>
     <section class="footer-section">
-    <footer class="footer is-fixed-bottom">
-        <h1 id="footer-div" class="content has-text-centered is-large">
-            <span class="footer-text">Connect with me:</span>
-            <span class="icon">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/atlgouda">
-                    <div class="tooltip">
-                    <i class="fab fa-github"></i>
-                    <span class="tooltiptext">GitHub</span>
-                </div></a>
-            </span>
-            <span class="icon">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gouda-clark">
-                <div class="tooltip">          
-                    <i class="fab fa-linkedin"></i>
-                    <span class="tooltiptext">LinkedIn</span>
-                </div></a>
-            </span>
-            <span class="icon">
-                <a target="_blank" rel="noopener noreferrer" href="http://www.twitter.com/atlgouda">
-                    <div class="tooltip">
-                    <i class="fab fa-twitter"></i>
-                <span class="tooltiptext">Twitter</span>
-            </div></a>
-            </span>
-            <span class="icon">
-                <a href="mailto:gouda.clark@gmail.com">
+        <footer class="footer is-fixed-bottom">
+            <h1 id="footer-div" class="content has-text-centered is-large">
+                <span class="footer-text">Connect with me:</span>
+                <span class="icon">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/atlgouda">
                         <div class="tooltip">
-                    <i class="fas fa-envelope"></i>
-                <span class="tooltiptext">Email</span>
-            </div></a>
-            </span>
-        </h1>
-    </footer>
-</section>
-<script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    var cancel = document.getElementById("cancel-btn");
-    cancel.onclick = function() {
-        modal.style.display = "none"
-    }
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
+                            <i class="fab fa-github"></i>
+                            <span class="tooltiptext">GitHub</span>
+                        </div>
+                    </a>
+                </span>
+                <span class="icon">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gouda-clark">
+                        <div class="tooltip">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="tooltiptext">LinkedIn</span>
+                        </div>
+                    </a>
+                </span>
+                <span class="icon">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.twitter.com/atlgouda">
+                        <div class="tooltip">
+                            <i class="fab fa-twitter"></i>
+                            <span class="tooltiptext">Twitter</span>
+                        </div>
+                    </a>
+                </span>
+                <span class="icon">
+                    <a href="mailto:gouda.clark@gmail.com">
+                        <div class="tooltip">
+                            <i class="fas fa-envelope"></i>
+                            <span class="tooltiptext">Email</span>
+                        </div>
+                    </a>
+                </span>
+            </h1>
+        </footer>
+    </section>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        var cancel = document.getElementById("cancel-btn");
+        cancel.onclick = function () {
+            modal.style.display = "none"
+        }
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
 
-    }
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-// Jeopardy
-    var jModal = document.getElementById('jeopardyModal');
-    var jBtn = document.getElementById("jeopardyBtn");
-    var jSpan = document.getElementById("jeopardyClose");
-    var jcancel = document.getElementById("jeopardyCancel");
-    jcancel.onclick = function() {
-        jModal.style.display = "none"
-    }
-    jBtn.onclick = function() {
-      jModal.style.display = "block";
-    }
-    jSpan.onclick = function() {
-      jModal.style.display = "none";
-    }
-    window.onclick = function(event) {
-      if (event.target == jModal) {
-        jModal.style.display = "none";
-      }
-    }
-    // League of your imagination
-    var lModal = document.getElementById('leagueModal');
-    var lBtn = document.getElementById("leagueBtn");
-    var lSpan = document.getElementById("leagueClose");
-    var lcancel = document.getElementById("leagueCancel");
-    lcancel.onclick = function() {
-        lModal.style.display = "none"
-    }
-    lBtn.onclick = function() {
-      lModal.style.display = "block";
-    }
-    lSpan.onclick = function() {
-      lModal.style.display = "none";
-    }
-    window.onclick = function(event) {
-      if (event.target == lModal) {
-        lModal.style.display = "none";
-      }
-    }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        // Jeopardy
+        var jModal = document.getElementById('jeopardyModal');
+        var jBtn = document.getElementById("jeopardyBtn");
+        var jSpan = document.getElementById("jeopardyClose");
+        var jcancel = document.getElementById("jeopardyCancel");
+        jcancel.onclick = function () {
+            jModal.style.display = "none"
+        }
+        jBtn.onclick = function () {
+            jModal.style.display = "block";
+        }
+        jSpan.onclick = function () {
+            jModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == jModal) {
+                jModal.style.display = "none";
+            }
+        }
+        // League of your imagination
+        var lModal = document.getElementById('leagueModal');
+        var lBtn = document.getElementById("leagueBtn");
+        var lSpan = document.getElementById("leagueClose");
+        var lcancel = document.getElementById("leagueCancel");
+        lcancel.onclick = function () {
+            lModal.style.display = "none"
+        }
+        lBtn.onclick = function () {
+            lModal.style.display = "block";
+        }
+        lSpan.onclick = function () {
+            lModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == lModal) {
+                lModal.style.display = "none";
+            }
+        }
+        // Restaurant Guide 
+        var rModal = document.getElementById('restModal');
+        var rBtn = document.getElementById("restBtn");
+        var rSpan = document.getElementById("restClose");
+        var rcancel = document.getElementById("restCancel");
+        rcancel.onclick = function () {
+            rModal.style.display = "none"
+        }
+        rBtn.onclick = function () {
+            rModal.style.display = "block";
+        }
+        rSpan.onclick = function () {
+            rModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == lModal) {
+                rModal.style.display = "none";
+            }
+        }
+//     // navbar burger:
+//     document.addEventListener('DOMContentLoaded', () => {
 
-    // Restaurant Guide 
-    var rModal = document.getElementById('restModal');
-    var rBtn = document.getElementById("restBtn");
-    var rSpan = document.getElementById("restClose");
-    var rcancel = document.getElementById("restCancel");
-    rcancel.onclick = function() {
-        rModal.style.display = "none"
-    }
-    rBtn.onclick = function() {
-      rModal.style.display = "block";
-    }
-    rSpan.onclick = function() {
-      rModal.style.display = "none";
-    }
-    window.onclick = function(event) {
-      if (event.target == lModal) {
-        rModal.style.display = "none";
-      }
-    }
-    
+// // Get all "navbar-burger" elements
+// const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// // Check if there are any navbar burgers
+// if ($navbarBurgers.length > 0) {
+
+//   // Add a click event on each of them
+//   $navbarBurgers.forEach( el => {
+//     el.addEventListener('click', () => {
+
+//       // Get the target from the "data-target" attribute
+//       const target = el.dataset.target;
+//       const $target = document.getElementById(target);
+
+//       // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+//       el.classList.toggle('is-active');
+//       $target.classList.toggle('is-active');
+
+//     });
+//   });
+// }
+
+// });
     </script>
 </body>
 </html>

@@ -334,13 +334,14 @@ html {
 
     }
     #about-me {
-        height: 30%;
+        /* height: 70vh; */
         background-color: #23282D;
+        background-attachment: fixed;
         /* border-bottom: 4px solid white;
         border-top: 4px solid white; */
-        padding-top: 30px;
+        /* padding-top: 30px; */
         padding-left: 0;
-        padding-bottom: 10%;
+        /* padding-bottom: 10%; */
     }
     .section-title {
         color: white;
@@ -351,6 +352,7 @@ html {
     #about-me-text {
         color: white;
         padding-right: 10%;
+        font-size: 15px;
     }
     .hero {
         /* background-image: url("https://i.imgur.com/rXIJpXi.jpg?2"); */
@@ -366,12 +368,6 @@ html {
         background-attachment: initial;
         /* display: none; */
         overflow: visible;
-    }
-    #about-me-text {
-        font-size: 15px;
-    }
-    #about-me {
-        height: 50vh;
     }
     #portfolio,
     #experience {
@@ -432,13 +428,14 @@ html {
         background-attachment: initial;
 }
 #about-me {
+    display: inline-block;
     height: 100vh;
     background-color: #23282D;
     /* border-bottom: 4px solid white;
     border-top: 4px solid white; */
     padding-top: 30px;
     padding-left: 0;
-    padding-bottom: 10%;
+    padding-bottom: 50px;
 }
 .section-title {
     color: white;

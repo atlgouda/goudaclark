@@ -61,13 +61,18 @@
    
 }
 #learnMore {
-    margin-top: 5%;
+    margin-top: 1.5vh;
 }
 /* .text-box {
     height: 100%;
     vertical-align: middle;
     display: table-cell;
 } */
+#experience-icon {
+    font-size: 5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
 #portfolio-title,
 #experience-title {
     color: white;
@@ -80,7 +85,7 @@
 }
 #portfolio,
 #experience {
-    height: 35%;
+    height: 40%;
     background-color: #23282D;
     /* border-bottom: 4px solid white;
     border-top: 4px solid white; */
@@ -419,7 +424,7 @@ html {
         height: 50%;
     }
     #experience {
-        height: 80%;
+        height: 100%;
     }
     #jeopardy-title,
     #league-title,

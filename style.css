@@ -80,7 +80,7 @@
 }
 #portfolio,
 #experience {
-    height: 30%;
+    height: 35%;
     background-color: #23282D;
     /* border-bottom: 4px solid white;
     border-top: 4px solid white; */
@@ -89,6 +89,9 @@
     padding-bottom: 10%;
 
 }   
+#portfolio {
+    height: 25%;
+}
 #content {
     color: black;
     padding-bottom: 50px;
@@ -297,6 +300,10 @@ html {
 #showcase-site {
     padding-top: 35px;
 }
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 812px) {
@@ -369,9 +376,11 @@ html {
         /* display: none; */
         overflow: visible;
     }
-    #portfolio,
+    #portfolio {
+        height: 35vh;
+    }
     #experience {
-        height: 50vh;
+        height: 60vh;
     }
     .container {
         width: 100%;
@@ -406,9 +415,11 @@ html {
     #experience-title {
         font-size: 3rem;
     }
-    #portfolio,
-    #experience {
+    #portfolio {
         height: 50%;
+    }
+    #experience {
+        height: 80%;
     }
     #jeopardy-title,
     #league-title,
@@ -487,7 +498,11 @@ html {
 /* ipad */
 @media only screen and (min-width: 768px) and (min-height: 1000px) {
 #about-me {
-    height: 70vh;
+    height: 50vh;
     font-size: 20px;
     }
+#about-me-text {
+    font-size: 2vh;
+    padding-right: 0;
+}
 }

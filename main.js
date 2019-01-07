@@ -12,3 +12,7 @@ function portfolioScroll() {
     var elmnt = document.getElementById("portfolio");
     elmnt.scrollIntoView();
 };
+function contactScroll() {
+    var elmnt = document.getElementById("footer-div");
+    elmnt.scrollIntoView();
+};

@@ -145,6 +145,7 @@ html {
     display: flex;
     justify-content: space-between;
 }
+#bbBtn,
 #wtfBtn,
 #leagueBtn,
 #jeopardyBtn,
@@ -154,6 +155,7 @@ html {
    
     z-index: 1;
 }
+#bb-title,
 #wtf-title,
 #rest-title,
 #league-title,
@@ -306,7 +308,7 @@ html {
 .modal-content {
     max-width: 900px;
 }
-#myBtn, #leagueBtn, #jeopardyBtn, #restBtn, #wtfBtn {
+#bbBtn, #myBtn, #leagueBtn, #jeopardyBtn, #restBtn, #wtfBtn {
     margin-left: 15px;
 }
 #showcase-site {
@@ -437,6 +439,7 @@ html {
     #experience {
         height: 100%;
     }
+    #bb-title,
     #wtf-title,
     #jeopardy-title,
     #league-title,

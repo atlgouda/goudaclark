@@ -118,3 +118,22 @@ function contactScroll() {
                 jModal.style.display = "none";
             }
         }
+        // Beat.box
+        var lModal = document.getElementById('bbModal');
+        var lBtn = document.getElementById("bbBtn");
+        var lSpan = document.getElementById("bbClose");
+        var lcancel = document.getElementById("bbCancel");
+        lcancel.onclick = function () {
+            lModal.style.display = "none"
+        }
+        lBtn.onclick = function () {
+            lModal.style.display = "block";
+        }
+        lSpan.onclick = function () {
+            lModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == lModal) {
+                lModal.style.display = "none";
+            }
+        }        

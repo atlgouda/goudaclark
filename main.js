@@ -99,3 +99,22 @@ function contactScroll() {
                 rModal.style.display = "none";
             }
         }
+        // Waka Tata Flame 
+        var jModal = document.getElementById('wtfModal');
+        var jBtn = document.getElementById("wtfBtn");
+        var jSpan = document.getElementById("wtfClose");
+        var jcancel = document.getElementById("wtfCancel");
+        jcancel.onclick = function () {
+            jModal.style.display = "none"
+        }
+        jBtn.onclick = function () {
+            jModal.style.display = "block";
+        }
+        jSpan.onclick = function () {
+            jModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == jModal) {
+                jModal.style.display = "none";
+            }
+        }

@@ -74,16 +74,19 @@
     padding-top: 2rem;
     padding-left: 1rem;
 }
+#portfolio-design-title,
 #portfolio-title,
 #experience-title {
     color: white;
 }
+#portfolio-design-content,
 #portfolio-content,
 #experience-content {
     color: white;
     font-size: 2vh;
     padding-right: 10%;
 }
+#portfolio-design,
 #portfolio,
 #experience {
     height: 40%;
@@ -94,7 +97,8 @@
     padding-left: 10%;
     padding-bottom: 10%;
 
-}   
+}
+#portfolio-design,   
 #portfolio {
     height: 25%;
 }
@@ -141,6 +145,7 @@ html {
     display: flex;
     justify-content: space-between;
 }
+#wtfBtn,
 #leagueBtn,
 #jeopardyBtn,
 #myBtn {
@@ -149,6 +154,7 @@ html {
    
     z-index: 1;
 }
+#wtf-title,
 #rest-title,
 #league-title,
 #parks-title,
@@ -300,7 +306,7 @@ html {
 .modal-content {
     max-width: 900px;
 }
-#myBtn, #leagueBtn, #jeopardyBtn, #restBtn {
+#myBtn, #leagueBtn, #jeopardyBtn, #restBtn, #wtfBtn {
     margin-left: 15px;
 }
 #showcase-site {
@@ -382,6 +388,7 @@ html {
         /* display: none; */
         overflow: visible;
     }
+    #portfolio-design,
     #portfolio {
         height: 35vh;
     }
@@ -413,20 +420,24 @@ html {
 }
 /* Mobile Landscape */
 @media only screen and (max-height: 500px) {
+    #portfolio-design-content,
     #portfolio-content,
     #experience-content  {
         font-size: 15px;
     }
+    #portfolio-design-title,
     #portfolio-title,
     #experience-title {
         font-size: 3rem;
     }
+    #portfolio-design,
     #portfolio {
         height: 50%;
     }
     #experience {
         height: 100%;
     }
+    #wtf-title,
     #jeopardy-title,
     #league-title,
     #rest-title {

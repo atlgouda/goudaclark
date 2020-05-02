@@ -355,7 +355,7 @@ html {
 
     }
     #about-me {
-        /* height: 70vh; */
+        height: 50vh;
         background-color: #23282D;
         background-attachment: fixed;
         /* border-bottom: 4px solid white;

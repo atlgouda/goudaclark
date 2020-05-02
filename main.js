@@ -100,40 +100,40 @@ function contactScroll() {
             }
         }
         // Waka Tata Flame 
-        var jModal = document.getElementById('wtfModal');
-        var jBtn = document.getElementById("wtfBtn");
-        var jSpan = document.getElementById("wtfClose");
-        var jcancel = document.getElementById("wtfCancel");
-        jcancel.onclick = function () {
-            jModal.style.display = "none"
+        var wModal = document.getElementById('wtfModal');
+        var wBtn = document.getElementById("wtfBtn");
+        var wSpan = document.getElementById("wtfClose");
+        var wcancel = document.getElementById("wtfCancel");
+        wcancel.onclick = function () {
+            wModal.style.display = "none"
         }
-        jBtn.onclick = function () {
-            jModal.style.display = "block";
+        wBtn.onclick = function () {
+            wModal.style.display = "block";
         }
-        jSpan.onclick = function () {
-            jModal.style.display = "none";
+        wSpan.onclick = function () {
+            wModal.style.display = "none";
         }
         window.onclick = function (event) {
-            if (event.target == jModal) {
-                jModal.style.display = "none";
+            if (event.target == wModal) {
+                wModal.style.display = "none";
             }
         }
         // Beat.box
-        var lModal = document.getElementById('bbModal');
-        var lBtn = document.getElementById("bbBtn");
-        var lSpan = document.getElementById("bbClose");
-        var lcancel = document.getElementById("bbCancel");
-        lcancel.onclick = function () {
+        var bModal = document.getElementById('bbModal');
+        var bBtn = document.getElementById("bbBtn");
+        var bSpan = document.getElementById("bbClose");
+        var bcancel = document.getElementById("bbCancel");
+        bcancel.onclick = function () {
             lModal.style.display = "none"
         }
-        lBtn.onclick = function () {
-            lModal.style.display = "block";
+        bBtn.onclick = function () {
+            bModal.style.display = "block";
         }
-        lSpan.onclick = function () {
-            lModal.style.display = "none";
+        bSpan.onclick = function () {
+            bModal.style.display = "none";
         }
         window.onclick = function (event) {
-            if (event.target == lModal) {
-                lModal.style.display = "none";
+            if (event.target == bModal) {
+                bModal.style.display = "none";
             }
         }        

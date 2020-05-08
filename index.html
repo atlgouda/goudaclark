@@ -105,7 +105,7 @@
             </div>
     </section>
     <div class="tile is-ancestor is-vertical">
-        <div id="showcase-site" class="tile is-parent">
+        <!-- <div id="showcase-site" class="tile is-parent">
             <article class="tile is-child box is-5">
                 <div class="tile-box">
                     <p id="parks-title" class="title">Parks List</p>
@@ -156,6 +156,57 @@
                 <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/">
                     <figure class="image is-4x3">
                         <img src="https://i.imgur.com/TWMUzRU.png">
+                    </figure>
+                </a>
+            </article>
+        </div> -->
+        <div id="showcase-site" class="tile is-parent">
+            <article class="tile is-child box is-5">
+                <div class="tile-box">
+                    <p id="parks-title" class="title">Pandemic Airlines</p>
+                    <button id="myBtn" class="button is-link">More</button>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2 class="modal-header-text">Pandemic Airlines</h2>
+                        </div>
+                        <h2 class="modal-subheader">Inspiration</h2>
+                        <p class="modal-summary">After Warren Buffet announced that his company sold off all of its stakes in airlines, I pulled this data to show how the airlines currently trading on the NYSE have been affected throughout the year, specifically by Covid-19 related events.
+                            First I created a time series graph to show the daily movement of these stocks since the beginning of the year.
+                            Then I created a bar chart with user input to show the percent change in the stock from when the event occurred.</p>
+                        <h2 class="modal-subheader">Skills</h2>
+                        <p class="modal-summary">Data was pulled from YFinance library, which was created after Yahoo Finance decommissioned their historical data API.
+                            A combination of Python / Pandas / Dash used to create the site.
+                        </p>
+
+                        <h2 class="modal-subheader">Overview</h2>
+                        <p class="modal-summary">Dash is a great tool to use for data visualization, especially when user input is needed. 
+                            The graphs are fully interactive and adjust the axes and lines seamlessly with simple interaction.
+                            Hovering, zooming and selecting will all update immediately without requiring a page load.</p>
+                        <h2 class="modal-subheader">Technologies Used</h2>
+                        <ul class="technology-list">
+                            <li class="technology-item">Python</li>
+                            <li class="technology-item">Pandas</li>
+                            <li class="technology-item">Dash</li>
+                            <li class="technology-item">Plotly</li>
+                            <li class="technology-item">Heroku</li>
+                            <li class="technology-item">Gunicorn</li>
+                            <li class="technology-item">Flask</li>
+                            <li class="technology-item">YFinance Library</li>
+                        </ul>
+                        <footer class="modal-footer">
+                            <a target="_blank" rel="noopener noreferrer" href="http://pandemair.herokuapp.com/">
+                                <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                            <button id="cancel-btn" class="button is-light">Cancel</button>
+                        </footer>
+                    </div>
+                </div>
+                <p class="subtitle" id="parks-list-subtitle">Airline stock tracker referencing Covid-19 events</p>
+                <a target="_blank" rel="noopener noreferrer" href="http://pandemair.herokuapp.com/">
+                    <figure class="image is-4x3">
+                        <img src="https://i.imgur.com/vcPgyva.png?3">
                     </figure>
                 </a>
             </article>
@@ -230,7 +281,7 @@
                             <h2 class="modal-subheader">Inspiration</h2>
                             <p class="modal-summary">My friends and I often have a debate about which athletes would do
                                 well in other sports on a professional level. Could Lebron be a soccer striker? What if
-                                Tom Glavine chose his NHL contract over becoming a starting pitcher. With this thought
+                                Tom Glavine chose his NHL contract over becoming a starting pitcher?  With this thought
                                 in mind I built a site in which users can create teams filled with whichever players
                                 they choose, and have them play games at any location.</p>
                             <h2 class="modal-subheader">Skills</h2>
@@ -272,7 +323,57 @@
             </article>
             <article class="tile is-child box is-4">
                 <div class="tile-box">
-                    <p id="rest-title" class="title">Restaurant Guide</p>
+                        <p id="parks-title" class="title">Parks List</p>
+                        <button id="parkBtn" class="button is-link">More</button>
+                    </div>
+                    <div id="parkModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="parkClose" class="close">&times;</span>
+                                <h2 class="modal-header-text">Parks List</h2>
+                            </div>
+                            <h2 class="modal-subheader">Inspiration</h2>
+                            <p class="modal-summary">I always thought the ideal road trip would be packing up an RV and
+                                touring the US national parks. I chose to create an app to learn more about each park and
+                                create a "Wish List" of which locations to visit.</p>
+                            <h2 class="modal-subheader">Skills</h2>
+                            <p class="modal-summary">This was my final project in my Web Development Immersive course, and
+                                I used the opportunity to utilize Ruby on Rails. It was a great chance to implement a new
+                                programming language and server-side web application framework. I also chose to take a
+                                deeper dive with the styled components in React. To toggle between different versions of my
+                                site, I created multiple branches in my GitHub repository.</p>
+    
+                            <h2 class="modal-subheader">Overview</h2>
+                            <p class="modal-summary">Once a user comes to the site, they will get to a landing page to
+                                enter the site. After entering, they have the option to see the list of parks, add a park
+                                to their wish list, search parks by state, and see more of a park's information on a "show
+                                one" page.</p>
+                            <h2 class="modal-subheader">Technologies Used</h2>
+                            <ul class="technology-list">
+                                <li class="technology-item">React</li>
+                                <li class="technology-item">Ruby On Rails</li>
+                                <li class="technology-item">Heroku</li>
+                                <li class="technology-item">Postman</li>
+                                <li class="technology-item">HTML5</li>
+                                <li class="technology-item">CSS</li>
+                                <li class="technology-item">GitHub</li>
+                                <li class="technology-item">National Parks Service API</li>
+                                <li class="technology-item">HTTParty</li>
+                            </ul>
+                            <footer class="modal-footer">
+                                <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/">
+                                    <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                                <button id="parkCancel" class="button is-light">Cancel</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <p class="subtitle" id="parks-list-subtitle">Guide to US national parks</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://parks-list.herokuapp.com/">
+                        <figure class="image is-4x3">
+                            <img src="https://i.imgur.com/TWMUzRU.png">
+                        </figure>
+                    </a>
+                    <!-- <p id="rest-title" class="title">Restaurant Guide</p>
                     <button id="restBtn" class="button is-link">More</button>
                     <div id="restModal" class="modal">
                         <div class="modal-content">
@@ -317,7 +418,7 @@
                 <a target="_blank" rel="noopener noreferrer" href="https://new-restaurant-list.herokuapp.com/">
                     <figure class="image is-4x3">
                         <img src="https://i.imgur.com/axY7uWI.png?1">
-                    </figure>
+                    </figure> -->
                 </a>
             </article>
         </div>

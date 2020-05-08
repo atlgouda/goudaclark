@@ -81,22 +81,22 @@ function contactScroll() {
             }
         }
         // Restaurant Guide 
-        var rModal = document.getElementById('restModal');
-        var rBtn = document.getElementById("restBtn");
-        var rSpan = document.getElementById("restClose");
-        var rcancel = document.getElementById("restCancel");
-        rcancel.onclick = function () {
-            rModal.style.display = "none"
+        var pModal = document.getElementById('parkModal');
+        var pBtn = document.getElementById("parkBtn");
+        var pSpan = document.getElementById("parkClose");
+        var pcancel = document.getElementById("parkCancel");
+        pcancel.onclick = function () {
+            pModal.style.display = "none"
         }
-        rBtn.onclick = function () {
-            rModal.style.display = "block";
+        pBtn.onclick = function () {
+            pModal.style.display = "block";
         }
-        rSpan.onclick = function () {
-            rModal.style.display = "none";
+        pSpan.onclick = function () {
+            pModal.style.display = "none";
         }
         window.onclick = function (event) {
-            if (event.target == lModal) {
-                rModal.style.display = "none";
+            if (event.target == pModal) {
+                pModal.style.display = "none";
             }
         }
         // Waka Tata Flame 

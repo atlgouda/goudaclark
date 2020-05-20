@@ -62,24 +62,45 @@ function contactScroll() {
             }
         }
         // League of your imagination
-        var lModal = document.getElementById('leagueModal');
-        var lBtn = document.getElementById("leagueBtn");
-        var lSpan = document.getElementById("leagueClose");
-        var lcancel = document.getElementById("leagueCancel");
-        lcancel.onclick = function () {
-            lModal.style.display = "none"
+        // var lModal = document.getElementById('leagueModal');
+        // var lBtn = document.getElementById("leagueBtn");
+        // var lSpan = document.getElementById("leagueClose");
+        // var lcancel = document.getElementById("leagueCancel");
+        // lcancel.onclick = function () {
+        //     lModal.style.display = "none"
+        // }
+        // lBtn.onclick = function () {
+        //     lModal.style.display = "block";
+        // }
+        // lSpan.onclick = function () {
+        //     lModal.style.display = "none";
+        // }
+        // window.onclick = function (event) {
+        //     if (event.target == lModal) {
+        //         lModal.style.display = "none";
+        //     }
+        // }
+        
+        // ATL VIPS
+        var vModal = document.getElementById('vipModal');
+        var vBtn = document.getElementById("vipBtn");
+        var vSpan = document.getElementById("vipClose");
+        var vcancel = document.getElementById("vipCancel");
+        vcancel.onclick = function () {
+            vModal.style.display = "none"
         }
-        lBtn.onclick = function () {
-            lModal.style.display = "block";
+        vBtn.onclick = function () {
+            vModal.style.display = "block";
         }
-        lSpan.onclick = function () {
-            lModal.style.display = "none";
+        vSpan.onclick = function () {
+            vModal.style.display = "none";
         }
         window.onclick = function (event) {
-            if (event.target == lModal) {
-                lModal.style.display = "none";
+            if (event.target == vModal) {
+                vModal.style.display = "none";
             }
         }
+
         // Restaurant Guide 
         var pModal = document.getElementById('parkModal');
         var pBtn = document.getElementById("parkBtn");

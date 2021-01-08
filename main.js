@@ -80,7 +80,27 @@ function contactScroll() {
         //         lModal.style.display = "none";
         //     }
         // }
-        
+
+        // Atlantazon
+        var aModal = document.getElementById('azModal');
+        var aBtn = document.getElementById("azBtn");
+        var aSpan = document.getElementById("azClose");
+        var acancel = document.getElementById("azCancel");
+        acancel.onclick = function () {
+            aModal.style.display = "none"
+        }
+        aBtn.onclick = function () {
+            aModal.style.display = "block";
+        }
+        aSpan.onclick = function () {
+            aModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == aModal) {
+                aModal.style.display = "none";
+            }
+        }
+
         // ATL VIPS
         var vModal = document.getElementById('vipModal');
         var vBtn = document.getElementById("vipBtn");

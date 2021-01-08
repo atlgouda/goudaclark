@@ -161,7 +161,55 @@
             </article>
         </div> -->
         <div id="showcase-site" class="tile is-parent">
-            <article class="tile is-child box is-5">
+            <article id="showcase-tile" class="tile is-child box is-5">
+                <div class="tile-box">
+                    <p id="az-title" class="title">Atlantazon</p>
+                    <button id="azBtn" class="button is-link">More</button>
+                </div>
+                <div id="azModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="azClose">&times;</span>
+                            <h2 class="modal-header-text">Atlantazon</h2>
+                        </div>
+                        <h2 class="modal-subheader">Inspiration</h2>
+                        <p class="modal-summary">When shopping, I try to support local Atlanta businesses whenever possible.
+                            So for the holidays, I wanted to design a site that would search the same keyword across multiple locally owned retailers.
+                        </p>
+                        <h2 class="modal-subheader">Skills</h2>
+                        <p class="modal-summary">Search results were found using BeautifulSoup to scrape individual store sites for item names, images, prices, and links.
+                            Note: If one of the stores changes their website layout, results may no longer come through.
+                        </p>
+
+                        <!-- <h2 class="modal-subheader">Overview</h2>
+                        <p class="modal-summary">Dash is a great tool to use for data visualization, especially when user input is needed. 
+                            The graphs are fully interactive and adjust the axes and lines seamlessly with simple interaction.
+                            Hovering, zooming and selecting will all update immediately without requiring a page load.</p> -->
+                        <h2 class="modal-subheader">Technologies Used</h2>
+                        <ul class="technology-list">
+                            <li class="technology-item">Python</li>
+                            <li class="technology-item">Flask</li>
+                            <li class="technology-item">WTForms</li>
+                            <li class="technology-item">Requests</li>
+                            <li class="technology-item">Heroku</li>
+                            <li class="technology-item">BeautifulSoup</li>
+                        </ul>
+                        <footer class="modal-footer">
+                            <a target="_blank" rel="noopener noreferrer" href="https://atlantazon.herokuapp.com/">
+                                <button id="enter-site-btn" class="button is-link">Go to site</button></a>
+                            <button id="azCancel" class="button is-light">Cancel</button>
+                        </footer>
+                    </div>
+                </div>
+                <p class="subtitle" id="parks-list-subtitle">Web scraping app for finding local Atlanta products</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://atlantazon.herokuapp.com/">
+                    <figure class="image is-4x3">
+                        <img src="https://i.imgur.com/ys4WZWL.png?1">
+                    </figure>
+                </a>
+            </article>
+
+            <article id="showcase-tile" class="tile is-child box is-5">
                 <div class="tile-box">
                     <p id="parks-title" class="title">Pandemic Airlines</p>
                     <button id="myBtn" class="button is-link">More</button>
@@ -211,8 +259,9 @@
                 </a>
             </article>
         </div>
+
         <div id="additional-sites" class="tile is-parent">
-            <article class="tile is-child box is-4">
+            <article id="additional-tiles" class="tile is-child box is-4">
                 <div class="tile-box">
                     <p id="jeopardy-title" class="title">Old School Jeopardy</p>
                     <button id="jeopardyBtn" class="button is-link">More</button>
@@ -268,7 +317,7 @@
                     </figure>
                 </a>
             </article>
-            <article class="tile is-child box is-4">
+            <article id="additional-tiles" class="tile is-child box is-4">
                 <div class="tile-box">
                         <p id="vip-title" class="title">Atlanta VIPs</p>
                         <button id="vipBtn" class="button is-link">More</button>
@@ -361,7 +410,7 @@
                     </figure>
                 </a> -->
             </article>
-            <article class="tile is-child box is-4">
+            <article id="additional-tiles" class="tile is-child box is-4">
                 <div class="tile-box">
                         <p id="parks-title" class="title">Parks List</p>
                         <button id="parkBtn" class="button is-link">More</button>

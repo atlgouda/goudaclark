@@ -145,6 +145,7 @@ html {
     display: flex;
     justify-content: space-between;
 }
+#azBtn,
 #bbBtn,
 #wtfBtn,
 #leagueBtn,
@@ -155,6 +156,7 @@ html {
    
     z-index: 1;
 }
+#az-title,
 #bb-title,
 #wtf-title,
 #rest-title,
@@ -173,11 +175,24 @@ html {
 }
 #showcase-site {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 #additional-sites {
+    justify-content: center;
+}
+#additional-sites,
+#showcase-site {
     padding-left: 10%;
     padding-right: 10%;
+    flex-wrap: wrap;
+}
+#showcase-tile {
+    min-width: 400px !important;
+    margin-top: 35px !important;
+}
+#additional-tiles {
+    min-width: 300px !important;
+    margin-top: 35px !important;
 }
 
 .tooltip {
@@ -439,6 +454,7 @@ html {
     #experience {
         height: 100%;
     }
+    #az-title,
     #bb-title,
     #wtf-title,
     #jeopardy-title,

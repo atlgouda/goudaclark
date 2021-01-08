@@ -454,13 +454,13 @@ html {
     #experience {
         height: 100%;
     }
-    #bb-title,
+    /* #bb-title,
     #wtf-title,
     #jeopardy-title,
     #league-title,
     #rest-title {
         font-size: 20px;
-    }
+    } */
     .hero-text {
         background-attachment: unset;
         /* display: none; */

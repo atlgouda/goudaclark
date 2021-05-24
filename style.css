@@ -150,6 +150,7 @@ html {
 #wtfBtn,
 #leagueBtn,
 #jeopardyBtn,
+#mbtaBtn,
 #myBtn {
     display: flex;
     justify-content: space-between;
@@ -162,7 +163,8 @@ html {
 #rest-title,
 #league-title,
 #parks-title,
-#jeopardy-title {
+#jeopardy-title,
+#mbta-title, {
     display: flex;
     justify-content: space-between;
 }

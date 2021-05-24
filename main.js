@@ -42,11 +42,33 @@ function contactScroll() {
                 modal.style.display = "none";
             }
         }
+
+        
+        // MBTA
+        var mModal = document.getElementById('jeopardyModal');
+        var mBtn = document.getElementById("jeopardyBtn");
+        var mSpan = document.getElementById("jeopardyClose");
+        var mcancel = document.getElementById("jeopardyCancel");
+        mcancel.onclick = function () {
+            mModal.style.display = "none"
+        }
+        mBtn.onclick = function () {
+            mModal.style.display = "block";
+        }
+        mSpan.onclick = function () {
+            mModal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == mModal) {
+                mModal.style.display = "none";
+            }
+        }
+
         // Jeopardy
-        var jModal = document.getElementById('jeopardyModal');
-        var jBtn = document.getElementById("jeopardyBtn");
-        var jSpan = document.getElementById("jeopardyClose");
-        var jcancel = document.getElementById("jeopardyCancel");
+        var jModal = document.getElementById('mbtaModal');
+        var jBtn = document.getElementById("mbtaBtn");
+        var jSpan = document.getElementById("mbtaClose");
+        var jcancel = document.getElementById("mbtaCancel");
         jcancel.onclick = function () {
             jModal.style.display = "none"
         }
@@ -61,6 +83,7 @@ function contactScroll() {
                 jModal.style.display = "none";
             }
         }
+
         // League of your imagination
         // var lModal = document.getElementById('leagueModal');
         // var lBtn = document.getElementById("leagueBtn");
